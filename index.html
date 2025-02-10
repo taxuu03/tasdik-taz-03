@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tasdik Taz - Portfolio</title>
+  <style>
+    /* General Styles */
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f0f0f0;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    /* Header */
+    header {
+      background: linear-gradient(135deg, #6a11cb, #2575fc);
+      color: #fff;
+      padding: 60px 0;
+      text-align: center;
+      clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+    }
+
+    header h1 {
+      font-size: 3rem;
+      margin: 0;
+      animation: fadeIn 2s ease-in-out;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      margin: 10px 0 0;
+      animation: fadeIn 2.5s ease-in-out;
+    }
+
+    /* Navigation */
+    nav {
+      display: flex;
+      justify-content: center;
+      background: rgba(255, 255, 255, 0.9);
+      padding: 15px;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    nav a {
+      color: #333;
+      margin: 0 20px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #6a11cb;
+    }
+
+    /* Sections */
+    section {
+      padding: 60px 20px;
+      margin: 40px auto;
+      max-width: 800px;
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+      animation: slideUp 1s ease-in-out;
+    }
+
+    h2 {
+      color: #6a11cb;
+      font-size: 2rem;
+      margin-bottom: 20px;
+      display: inline-block;
+      border-bottom: 3px solid #2575fc;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    ul li {
+      background: #f9f9f9;
+      margin: 10px 0;
+      padding: 15px;
+      border-radius: 8px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    ul li:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #333;
+      color: #fff;
+      margin-top: 60px;
+    }
+
+    footer a {
+      color: #6a11cb;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+
+    footer a:hover {
+      color: #2575fc;
+    }
+
+    /* Animations */
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    @keyframes slideUp {
+      from { transform: translateY(20px); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
+    }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 2rem;
+      }
+      header p {
+        font-size: 1rem;
+      }
+      nav a {
+        margin: 0 10px;
+      }
+      section {
+        padding: 40px 15px;
+      }
+    }
+  </style>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>Tasdik Taz</h1>
+    <p>Pro Badminton Player | Sports Enthusiast | Music Lover</p>
+  </header>
+  <nav>
+    <a href="#about">About Me</a>
+    <a href="#interests">Interests</a>
+    <a href="#social">Social</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      Hello! I'm Tasdik Taz, a professional badminton player from Bangladesh. I'm passionate about sports, especially cricket and football, and I'm a huge fan of the Brazilian national team. When I'm not on the court, I enjoy listening to band music and exploring the world of music. I also love cats and live in the beautiful country of Bangladesh.
+    </p>
+  </section>
+  <section id="interests">
+    <h2>My Interests</h2>
+    <ul>
+      <li>🏸 Professional Badminton Player</li>
+      <li>🏏 Cricket Enthusiast</li>
+      <li>⚽ Football Lover (Brazil Fan!)</li>
+      <li>🎵 Band Music & Aftermath</li>
+      <li>🐱 Cat Lover</li>
+    </ul>
+  </section>
+  <section id="social">
+    <h2>Social Media</h2>
+    <p>
+      You can follow me on Instagram to stay updated with my life and adventures:
+      <br>
+      <a href="https://www.instagram.com/taxuu_03" target="_blank">📸 @taxuu_03</a>
+    </p>
+  </section>
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>
+      If you'd like to get in touch, feel free to reach out to me via Instagram or email. I'd love to connect with you!
+      <br>
+      <a href="mailto:your-email@example.com">📧 tanimtalukder70764@gmail.com</a>
+    </p>
+  </section>
+
+
+   <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tasdik Taz - Achievements</title>
+  <style>
+    /* Reuse the same styles as the main page for consistency */
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f0f0f0;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background: linear-gradient(135deg, #6a11cb, #2575fc);
+      color: #fff;
+      padding: 60px 0;
+      text-align: center;
+      clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+    }
+    header h1 {
+      font-size: 3rem;
+      margin: 0;
+      animation: fadeIn 2s ease-in-out;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background: rgba(255, 255, 255, 0.9);
+      padding: 15px;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+    nav a {
+      color: #333;
+      margin: 0 20px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: color 0.3s ease;
+    }
+    nav a:hover {
+      color: #6a11cb;
+    }
+    section {
+      padding: 60px 20px;
+      margin: 40px auto;
+      max-width: 800px;
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+      animation: slideUp 1s ease-in-out;
+    }
+    h2 {
+      color: #6a11cb;
+      font-size: 2rem;
+      margin-bottom: 20px;
+      display: inline-block;
+      border-bottom: 3px solid #2575fc;
+    }
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    ul li {
+      background: #f9f9f9;
+      margin: 10px 0;
+      padding: 15px;
+      border-radius: 8px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    ul li:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #333;
+      color: #fff;
+      margin-top: 60px;
+    }
+    footer a {
+      color: #6a11cb;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+    footer a:hover {
+      color: #2575fc;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+    @keyframes slideUp {
+      from { transform: translateY(20px); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
+    }
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 2rem;
+      }
+      nav a {
+        margin: 0 10px;
+      }
+      section {
+        padding: 40px 15px;
+      }
+    }
+  </style>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>My Achievements</h1>
+    <p>Badminton | Music | Sports</p>
+  </header>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="#badminton">Badminton</a>
+    <a href="#music">Music Playlist</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <section id="badminton">
+    <h2>Badminton Achievements</h2>
+    <ul>
+      <li>🏆 Badminton Champion(2024)</li>
+    </ul>
+  </section>
+  <section id="music">
+    <h2>My Favorite Music Playlist</h2>
+    <p>Here are some of my favorite bands and songs:</p>
+    <ul>
+      <li>🎵 Aftermath - "Uthshorgo "</li>
+      <li>🎵 Artcell - "Dukkho Bilash"</li>
+      <li>🎵 Warfaze - "Purnota"</li>
+      <li>🎵 Tahsan - "Prem tumi"</li>
+    </ul>
+  </section>
+  <section id="hobbies">
+  <h2>My Hobbies and Interests</h2>
+  <p>
+    When I'm not playing badminton or listening to music, I enjoy a variety of activities that keep me inspired and energized. Here are some of my favorite hobbies:
+  </p>
+  <ul>
+    <li>🎮 Playing Video Games - I love exploring virtual worlds and competing in online matches.</li>
+    <li>📸 Photography - Capturing moments and landscapes is one of my creative outlets.</li>
+    <li>🐱 Spending Time with Cats - I adore cats and often spend time playing with them.</li>
+    <li>🌍 Traveling - Exploring new places and experiencing different cultures is something I truly enjoy.</li>
+    <li>📚 Reading - I love diving into books, especially about sports, music, and personal development.</li>
+  </ul>
+</section>
+  <section id="skills">
+  <h2>My Skills</h2>
+  <p>
+    Here are some of the skills I've developed over the years:
+  </p>
+  <ul>
+    <li>🏸 Badminton - Professional Player</li>
+    <li>💻 Web Development - HTML, CSS</li>
+    <li>🎨 Graphic Design -Photoshop,Canva </li>
+    <li>📊 Data Analysis - Excel</li>
+    <li>🎤 Public Speaking - Motivational speaker</li>
+  </ul>
+</section>
+ <section id="education">
+  <h2>Education</h2>
+  <p>
+    Here's a summary of my educational background:
+  </p>
+  <ul>
+    <li>🏫 DRMC (2025-2027)</li>
+    <li>📚 Secondary School -Bindubasini Govt. Boys' High School (2020-2025)</li>
+  </ul>
+</section>
+<section id="blog">
+  <h2>My Blog</h2>
+  <p>
+    I love sharing my thoughts and experiences through writing. Here are some of my recent blog posts:
+  </p>
+  <ul>
+    <li>📝 <a href="#">The Journey of a Badminton Player</a></li>
+    <li>📝 <a href="#">Top 5 Music Albums That Inspire Me</a></li>
+    <li>📝 <a href="#">How to Balance Sports and Studies</a></li>
+  </ul>
+</section>
+<section id="testimonials">
+  <h2>Testimonials</h2>
+  <p>
+    Here's what people say about me:
+  </p>
+  <ul>
+    <li>🌟 "Tasdik is an exceptional badminton player with a bright future ahead." - Coach Rahman</li>
+    <li>🌟 "His dedication and passion for sports are truly inspiring." - Team Captain</li>
+    <li>🌟 "A talented individual with a great sense of humor and teamwork." -School Friend </li>
+  </ul>
+</section>
+<section id="travel">
+  <h2>Travel Adventures</h2>
+  <p>
+    I love exploring new places. Here are some of my favorite travel destinations:
+  </p>
+  <ul>
+    <li>🌍 Cox's Bazar, Bangladesh - The longest natural sea beach in the world.</li>
+    <li>🌍 Sajek Valley, Bangladesh - A breathtaking hill station.</li>
+    <li>🌍 Rangpur,Bangladesh -Another world.</li>
+    <li>🌍 Meherpur,Bangladesh .</li>
+  </ul>
+</section>
+<section id="fitness">
+  <h2>Fitness Routine</h2>
+  <p>
+    Staying fit is a big part of my life. Here's my daily fitness routine:
+  </p>
+  <ul>
+    <li>🏃‍♂️ Morning Run - 5 km every day.</li>
+    <li>🏋️‍♂️ Gym Workout - Strength training and cardio.</li>
+    <li>🧘‍♂️ Yoga - For flexibility and mental peace.</li>
+    <li>🏸 Badminton Practice - 2 hours daily.</li>
+  </ul>
+</section>
+<section id="quotes">
+  <h2>Favorite Quotes</h2>
+  <p>
+    Here are some quotes that inspire me:
+  </p>
+  <ul>
+    <li>💬 "Success is no accident. It is hard work, perseverance, learning, studying, sacrifice, and most of all, love of what you are doing." - Pelé</li>
+    <li>💬 "The only way to do great work is to love what you do." - Steve Jobs</li>
+    <li>💬 "Believe you can and you're halfway there." - Theodore Roosevelt</li>
+  </ul>
+</section>
+<section id="social-media">
+  <h2>Connect With Me</h2>
+  <p>
+    Let's stay connected! Follow me on my social media platforms:
+  </p>
+  <ul>
+    <li>📸 <a href="https://www.instagram.com/taxuu_03" target="_blank">Instagram</a></li>
+    <li>📸<a href="https://www.facebook.com/profile.php?id=100089778543107" target="_blank">Facebook</a></li>
+  </ul>
+</section>
+<section id="goals">
+  <h2>Future Goals</h2>
+  <p>
+    Here are some of my goals for the future:
+  </p>
+  <ul>
+    <li>🎯 Represent Bangladesh in international badminton tournaments.</li>
+    <li>🎯 Learn advanced web development and build my own startup.</li>
+    <li>🎯 Travel to at least 20 countries by 2030.</li>
+    <li>🎯 Write a book about my journey as a sports enthusiast.</li>
+  </ul>
+</section>
+<section id="apps">
+  <h2>Favorite Apps</h2>
+  <p>
+    Here are some apps I use daily:
+  </p>
+  <ul>
+    <li>📱 Spotify - For music and podcasts.</li>
+    <li>📱 Instagram - To stay connected with friends.</li>
+    <li>📱 Duolingo - For learning new languages.</li>
+    <li>📱 Strava - To track my fitness activities.</li>
+  </ul>
+</section>
+<section id="sports-teams">
+  <h2>Favorite Sports Teams</h2>
+  <p>
+    Here are the sports teams I support:
+  </p>
+  <ul>
+    <li>⚽ Brazil National Football Team</li>
+    <li>🏀 Golden State Warriors (NBA)</li>
+    <li>🏏 Bangladesh National Cricket Team</li>
+    <li>🏸 Japanese Badminton Team</li>
+  </ul>
+</section>
+<section id="foods">
+  <h2>Favorite Foods</h2>
+  <p>
+    Here are some of my favorite dishes:
+  </p>
+  <ul>
+    <li>🍛 Biryani - A flavorful rice dish.</li>
+    <li>🍣 Sushi - Japanese delicacy.</li>
+    <li>🍕 Pizza - Classic comfort food.</li>
+    <li>🍩 Desserts - Especially chocolate-based ones!</li>
+  </ul>
+</section>
+<section id="inspirational-people">
+  <h2>Inspirational People</h2>
+  <p>
+    These are the people who inspire me the most:
+  </p>
+  <ul>
+    <li>🌟 Pelé - The greatest footballer of all time.</li>
+    <li>🌟 Lin Dan - Legendary badminton player.</li>
+    <li>🌟 Elon Musk - Visionary entrepreneur.</li>
+    <li>🌟 Malala Yousafzai - Advocate for education.</li>
+  </ul>
+</section>
+<section id="movies">
+  <h2>Favorite Movies</h2>
+  <p>
+    Here are some movies I love:
+  </p>
+  <ul>
+    <li>🎬 "Inception"</li>
+    <li>🎬 "The Dark Knight"</li>
+    <li>🎬 "Interstellar"</li>
+    <li>🎬 "The Pursuit of Happyness"</li>
+  </ul>
+</section>
+<section id="books">
+  <h2>Favorite Books</h2>
+  <p>
+    Here are some books that have inspired me:
+  </p>
+  <ul>
+    <li>📖 "The Alchemist" by Paulo Coelho</li>
+    <li>📖 "Atomic Habits" by James Clear</li>
+    <li>📖 "Shoe Dog" by Phil Knight</li>
+    <li>📖 "The Power of Now" by Eckhart Tolle</li>
+  </ul>
+</section>
+<section id="family">
+  <h2>My Family</h2>
+  <p>
+    My family is my biggest support system. Here's a little about them:
+  </p>
+  <ul>
+    <li>👨‍👩‍👧‍👦 Parents - My mom and dad have always encouraged me to follow my dreams.</li>
+    <li>👧 Sister - Unfortunately I don’t have any sister😪.</li>
+    <li>🧒My brother is my shelter💞.</li>
+  </ul>
+</section>
+<section id="friends">
+  <h2>My Friends</h2>
+  <p>
+    My friends are like family to me. Here are some of my closest friends:
+  </p>
+  <ul>
+    <li>👦 Siam and Morsalin - My childhood friend and cricket buddy.</li>
+    <li>👧 Lami - My school friend.  Everybody calls him Pinky👽.</li>
+    <li>👦 Shaon - My badminton partner and fitness enthusiast.</li>
+  </ul>
+</section>
+<section id="childhood">
+  <h2>Childhood Memories</h2>
+  <p>
+    Here are some of my favorite childhood memories:
+  </p>
+  <ul>
+    <li>🎈 Playing cricket in the neighborhood with friends.</li>
+    <li>🎉 Celebrating birthdays with family and friends.</li>
+    <li>🏞️ Family trips to Cox's Bazar and Sajek Valley.</li>
+  </ul>
+</section>
+<footer>
+        <div class="container">
+            <p>&copy; 2025 Tasdik Taz</p>
+        </div>
+    </footer>
+</body>
+</html>
+
